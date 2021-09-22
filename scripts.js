@@ -21,7 +21,7 @@ let isAlive = setInterval(function () {
   );
 
   // detect collision
-  if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
+  if (cactusLeft < 60 && cactusLeft > 0 && dinoTop >= 120) {
     // collision
     alert("ფხაკო აყირავდაა");
   }
