@@ -26,7 +26,9 @@ let isAlive = setInterval(function () {
     alert("Game Over!");
   }
 }, 10);
-
+document.addEventListener("touchstart", function (event){
+    jump()
+});
 document.addEventListener("keydown", function (event) {
   jump();
 });
