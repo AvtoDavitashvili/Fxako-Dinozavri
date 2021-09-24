@@ -23,7 +23,7 @@ let isAlive = setInterval(function () {
   // detect collision
   if (cactusLeft < 40&& cactusLeft > 0 && dinoTop >= 140) {
     // collision
-    alert("ფხაკო აყირავდაა");
+    alert("სამწუხაროდ დათო აყლისთავდა");
   }
 }, 10);
 document.addEventListener("touchstart", function (event){
